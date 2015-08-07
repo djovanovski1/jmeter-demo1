@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="605" lt="367" ts="1438959277559" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="18709">
+  <httpSample t="367" lt="367" ts="1438959277559" s="true" lb="http://google.com/" rc="301" rm="Moved Permanently" tn="" dt="text" by="540"/>
+  <httpSample t="232" lt="172" ts="1438959277932" s="true" lb="http://www.google.com/" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="19554"/>
+</httpSample>
+<httpSample t="229" lt="133" ts="1438959278542" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="18688">
+  <httpSample t="133" lt="133" ts="1438959278542" s="true" lb="http://google.com/" rc="301" rm="Moved Permanently" tn="" dt="text" by="540"/>
+  <httpSample t="95" lt="91" ts="1438959278676" s="true" lb="http://www.google.com/" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="19533"/>
+</httpSample>
+<httpSample t="223" lt="131" ts="1438959279542" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="18729">
+  <httpSample t="131" lt="131" ts="1438959279542" s="true" lb="http://google.com/" rc="301" rm="Moved Permanently" tn="" dt="text" by="540"/>
+  <httpSample t="91" lt="88" ts="1438959279674" s="true" lb="http://www.google.com/" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="19574"/>
+</httpSample>
+<httpSample t="220" lt="131" ts="1438959280557" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="18681">
+  <httpSample t="131" lt="131" ts="1438959280557" s="true" lb="http://google.com/" rc="301" rm="Moved Permanently" tn="" dt="text" by="540"/>
+  <httpSample t="87" lt="84" ts="1438959280690" s="true" lb="http://www.google.com/" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="19526"/>
+</httpSample>
+<httpSample t="232" lt="135" ts="1438959281542" s="true" lb="HTTP Request" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="18700">
+  <httpSample t="135" lt="135" ts="1438959281542" s="true" lb="http://google.com/" rc="301" rm="Moved Permanently" tn="" dt="text" by="540"/>
+  <httpSample t="96" lt="92" ts="1438959281678" s="true" lb="http://www.google.com/" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="19545"/>
+</httpSample>
+
+</testResults>
